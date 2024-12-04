@@ -124,9 +124,8 @@ function core() {
     let bandera = true;
 
     while (bandera) {
-        let opciones = logicaDeValidacion(
-            "Bienvenidos a la tienda 'Perrito con Chaucha', lo que tenemos a la venta es lo siguiente\n 1-Remera\n 2-Pantalón\n 3-Buzo\n 4-Perrito"
-        );
+        
+        let opciones = logicaDeValidacion("Bienvenidos a la tienda 'Perrito con Chaucha', lo que tenemos a la venta es lo siguiente\n 1-Remera\n 2-Pantalón\n 3-Buzo\n 4-Perrito");
 
         let cantidad = 1;
 
