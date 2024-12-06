@@ -131,7 +131,7 @@ function core() {
 
         switch (opciones) {
             case 0:
-                return
+                return;
             case 1:
                 cantidad = logicaDeValidacion("¿Cuántas Remeras quieres comprar?");
                 logicaDeCompra(100, "Remera", cantidad);
